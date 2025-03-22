@@ -1,0 +1,67 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+
+  <meta charset="UTF-8">
+  
+  <link rel="stylesheet" href="{% static 'test_site/index.css' %}">
+  
+  <title>Памятки по защите устройтсва</title>
+
+</head>
+
+<body>
+  
+  <article>
+    
+    <h2>Защита от взлома</h2>
+    <img src="{% static 'test_site/vzlom.jpg' %}">
+    <h3>
+      <ul>
+        <li>Сильные пароли</li>
+        <li>Разные сайты = разные пароли</li>
+        <li>Банковские карты в интернете</li>
+        <li>Хранение паролей</li>
+        <li>Взлом чере вирусы</li>
+      </ul>
+    </h3>
+    <a href="/second"><button>Подробнее</button></a>
+  </article>
+
+  <article>
+    
+    <h2>Защита от вирусов</h2>
+    <img src="{% static 'test_site/virus.png' %}">
+    <h3>
+      <ul>
+        <li>Антивирус</li>
+        <li>Неизвестные ссылки</li>
+        <li>программы с подозрительных сайтов</li>
+        <li>подозрительные Flash-накопители</li>
+      </ul>
+    </h3>
+    <a href="/third"><button>Подробнее</button></a>
+  </article>
+
+  <article>
+    
+    <h2>Защита от кражи физ. носителей</h2>
+    <img src="{% static 'test_site/nositely.png' %}">
+    <h3>
+      <ul>
+        <li>хранить в безопасном месте</li>
+        <li>Не оставлять носитель без присмотра</li>
+        <li>Не сообщать о данных на носителе</li>
+        <li>Убедиться в отсутствии важных данных на носителе</li>
+        <li>Безопасное место для серверов</li>
+      </ul>
+    </h3>
+    <a href="/fourth"><button>Подробнее</button></a>
+  </article>
+</body>
+
+</html>

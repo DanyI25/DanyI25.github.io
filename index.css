@@ -1,0 +1,30 @@
+body {
+    color: black;
+    font-size: 18px;
+    font-family: "Helvetica";
+}
+
+img {
+    width: 500px;
+    border-radius: 20px;
+}
+
+article {
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    vertical-align: top;
+    display: inline-block;
+    align-items: center;
+}
+
+button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+}
